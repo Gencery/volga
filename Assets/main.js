@@ -201,7 +201,35 @@ function getPage(page) {
     },
     software: {
       content: /*html*/`
-      
+      <main class="cardContainer software">
+        ${data.experience.acting.reduce((acc, current) => acc + /*html*/`
+          <div class="card">
+            <div class="info">
+              <div>
+                <h4>${current.Title || ""}</h4>
+                <p>${current.role || ""}</p>
+                <p>${current.timeline || ""}</p>
+                <p>${current.Director || ""}</p>
+                <p>${current.Company || ""}</p>
+                <p>${current.Location || ""}</p>
+                <p>${current.note || ""}</p>
+                ${current.imdb ? /*html*/`
+                  <a href=${current.imdb}>IMDB Page</a>
+                ` : ""}
+              </div>
+              ${current.logo ? /*html*/`<div class="logo">
+                <img src=${current.logo} />
+              </div>` : ""}
+            </div>
+            ${current.video ? /*html*/`
+              <video controls>
+                <source src=${current.video} type="video/mp4">
+              </video>
+            ` : ""}
+          </div>
+        `, "")
+        }
+      </main>
     `
     },
     contact: {
@@ -276,7 +304,6 @@ async function start() {
   let resources = await importResources();
   images = resources.img;
   data = resources.data;
-  console.log(images);
 
 
   document.body.addEventListener("click", e => {

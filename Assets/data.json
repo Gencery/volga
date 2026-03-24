@@ -25,7 +25,7 @@
     "software": [
       {
         "Title": "Producer",
-        "Company Name": "B-Fluid Ltd",
+        "CompanyName": "B-Fluid Ltd",
         "Schedule": "Full-Time",
         "StartEnd": "Sep 2023 - Oct 2025",
         "Location": "Dublin, County Dublin, Ireland",
@@ -34,7 +34,7 @@
       },
       {
         "Title": "Product Owner",
-        "Company Name": "Rapsodo Sports (Rapsodo, Inc.)",
+        "CompanyName": "Rapsodo Sports (Rapsodo, Inc.)",
         "Schedule": "Full-Time",
         "StartEnd": "Sep 2021 - Sep 2023",
         "Location": "Chesterfield, Missouri, United States",
@@ -42,7 +42,7 @@
       },
       {
         "Title": "Producer",
-        "Company Name": "Pixode",
+        "CompanyName": "Pixode",
         "Schedule": "Full-Time",
         "StartEnd": "Mar 2020 - Sep 2021",
         "Location": "London, England, UK",
@@ -50,7 +50,7 @@
       },
       {
         "Title": "Product Owner",
-        "Company Name": "Endless Games",
+        "CompanyName": "Endless Games",
         "Schedule": "Full-Time",
         "StartEnd": "Sep 2018 - Mar 2020",
         "Location": "İzmir, Türkiye",
@@ -58,7 +58,7 @@
       },
       {
         "Title": "Game Designer Intern",
-        "Company Name": "WazzApps",
+        "CompanyName": "WazzApps",
         "Schedule": "Internship",
         "StartEnd": "Jul 2018 - Sep 2018",
         "Location": "Novosibirsk, Russia",
@@ -66,7 +66,7 @@
       },
       {
         "Title": "Software Developer Intern",
-        "Company Name": "Abalıoğlu Yem Soya A.Ş.",
+        "CompanyName": "Abalıoğlu Yem Soya A.Ş.",
         "Schedule": "Internship",
         "StartEnd": "Jul 2017 - Aug 2017",
         "Location": "Türkiye",
@@ -74,7 +74,7 @@
       },
       {
         "Title": "Work and Travel Program Attendee",
-        "Company Name": "CIEE Council on International Educational Exchange",
+        "CompanyName": "CIEE Council on International Educational Exchange",
         "Schedule": "Full-Time",
         "StartEnd": "Jun 2016 - Sep 2016",
         "Location": "United States",
@@ -89,7 +89,8 @@
         "Director": "Dathaí Keane",
         "Company": "AMC+",
         "Location": "Dublin, Ireland",
-        "logo": "./Assets/img/amc.png"
+        "logo": "./Assets/img/amc.png",
+        "video": "./Assets/video/sanctuary2.mp4"
       },
       {
         "name": "Wednesday (Season 2)",

@@ -379,6 +379,12 @@ body:has(.acting) {
   }
 }
 
+.software {
+  .card {
+    box-shadow: 0 0px 5px 0px #55f;
+  }
+}
+
 .gallery {
   .card {
     box-shadow: 0 0px 5px 0px #0f0;
@@ -418,7 +424,7 @@ body:has(.acting) {
       width: 100%;
 
       .socLink {
-        height: 6vh;
+        width: 13vw;
         border-radius: 2vh;
         padding: 3px;
         background-color: rgba(0, 0, 0, 55%);
