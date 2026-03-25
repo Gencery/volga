@@ -371,6 +371,12 @@ body:has(.software) {
       justify-content: space-between;
       align-items: flex-start;
 
+      >div:first-of-type {
+        >*:first-of-type {
+          margin-top: 0%;
+        }
+      }
+
       >.logo {
         min-width: 25%;
         max-width: 25%;
