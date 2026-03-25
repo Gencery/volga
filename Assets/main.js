@@ -104,7 +104,7 @@ function getPage(page) {
   `
   let footer = () => /*html*/`
     <footer>
-      <a href="./?page=home" class="navHome">
+      <a href="./" class="navHome">
         <img src=${images.home.url} alt="">
       </a>
       <span class="copyright">© 2026 Volga Can Kaya. All rights reserved</span>
@@ -202,23 +202,19 @@ function getPage(page) {
     software: {
       content: /*html*/`
       <main class="cardContainer software">
-        ${data.experience.acting.reduce((acc, current) => acc + /*html*/`
+        ${data.experience.software.reduce((acc, current) => acc + /*html*/`
           <div class="card">
             <div class="info">
               <div>
                 <h4>${current.Title || ""}</h4>
-                <p>${current.role || ""}</p>
-                <p>${current.timeline || ""}</p>
-                <p>${current.Director || ""}</p>
-                <p>${current.Company || ""}</p>
+                <p>${current.CompanyName || ""}</p>
+                <p>${current.Schedule || ""}</p>
+                <p>${current.StartEnd || ""}</p>
                 <p>${current.Location || ""}</p>
-                <p>${current.note || ""}</p>
-                ${current.imdb ? /*html*/`
-                  <a href=${current.imdb}>IMDB Page</a>
-                ` : ""}
+                <p>${current.WorkPlace || ""}</p>
               </div>
-              ${current.logo ? /*html*/`<div class="logo">
-                <img src=${current.logo} />
+              ${current.CompanyLogo ? /*html*/`<div class="logo">
+                <img src=${current.CompanyLogo} />
               </div>` : ""}
             </div>
             ${current.video ? /*html*/`

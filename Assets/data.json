@@ -3,22 +3,26 @@
     {
       "SchoolName": "Griffith College Dublin",
       "Degree": "Postgraduate Degree, Big Data Management & Analytics (100% English)",
-      "StartEnd": "Sep 2023 - Sep 2024"
+      "StartEnd": "Sep 2023 - Sep 2024",
+      "logo": "./Assets/img/logo/gcd_logo.jpg"
     },
     {
       "SchoolName": "Novosibirsk State University",
       "Degree": "Master's Degree, Financial Management & Economics (100% English) - (GPA: 3.76 / 4)",
-      "StartEnd": "Sep 2019 - Jul 2021"
+      "StartEnd": "Sep 2019 - Jul 2021",
+      "logo": "./Assets/img/logo/nsu_logo.jpg"
     },
     {
       "SchoolName": "Yaşar University",
       "Degree": "Bachelor's degree, Computer Science & Engineering (100% English)",
-      "StartEnd": "Sep 2014 - Jan 2019"
+      "StartEnd": "Sep 2014 - Jan 2019",
+      "logo": "./Assets/img/logo/yasar_logo.jpg"
     },
     {
       "SchoolName": "Warsaw University of Technology",
       "Degree": "Bachelor's degree (Erasmus Exchange), Computer Engineering & Science (100% English)",
-      "StartEnd": "Sep 2023 - Sep 2024"
+      "StartEnd": "Sep 2023 - Sep 2024",
+      "logo": "./Assets/img/logo/wut_logo.jpg"
     }
   ],
   "experience": {
@@ -30,7 +34,7 @@
         "StartEnd": "Sep 2023 - Oct 2025",
         "Location": "Dublin, County Dublin, Ireland",
         "WorkPlace": "On-Site",
-        "CompanyLogo": ""
+        "CompanyLogo": "./Assets/img/logo/bfluid_ltd_logo.jpg"
       },
       {
         "Title": "Product Owner",
@@ -38,7 +42,8 @@
         "Schedule": "Full-Time",
         "StartEnd": "Sep 2021 - Sep 2023",
         "Location": "Chesterfield, Missouri, United States",
-        "WorkPlace": "Hybrid"
+        "WorkPlace": "Hybrid",
+        "CompanyLogo": "./Assets/img/logo/rapsodo_logo.jpg"
       },
       {
         "Title": "Producer",
@@ -46,7 +51,8 @@
         "Schedule": "Full-Time",
         "StartEnd": "Mar 2020 - Sep 2021",
         "Location": "London, England, UK",
-        "WorkPlace": "Hybrid"
+        "WorkPlace": "Hybrid",
+        "CompanyLogo": "./Assets/img/logo/pixode_logo.jpg"
       },
       {
         "Title": "Product Owner",
@@ -54,7 +60,8 @@
         "Schedule": "Full-Time",
         "StartEnd": "Sep 2018 - Mar 2020",
         "Location": "İzmir, Türkiye",
-        "WorkPlace": "Remote"
+        "WorkPlace": "Remote",
+        "CompanyLogo": "./Assets/img/logo/endlessgames_logo.jpg"
       },
       {
         "Title": "Game Designer Intern",
@@ -62,7 +69,8 @@
         "Schedule": "Internship",
         "StartEnd": "Jul 2018 - Sep 2018",
         "Location": "Novosibirsk, Russia",
-        "WorkPlace": "On-Site"
+        "WorkPlace": "On-Site",
+        "CompanyLogo": "./Assets/img/logo/wazzapps_logo.jpg"
       },
       {
         "Title": "Software Developer Intern",
@@ -70,7 +78,8 @@
         "Schedule": "Internship",
         "StartEnd": "Jul 2017 - Aug 2017",
         "Location": "Türkiye",
-        "WorkPlace": "On-Site"
+        "WorkPlace": "On-Site",
+        "CompanyLogo": "./Assets/img/logo/abalioglulezitagidasan_logo.jpg"
       },
       {
         "Title": "Work and Travel Program Attendee",
@@ -78,7 +87,8 @@
         "Schedule": "Full-Time",
         "StartEnd": "Jun 2016 - Sep 2016",
         "Location": "United States",
-        "WorkPlace": "On-Site"
+        "WorkPlace": "On-Site",
+        "CompanyLogo": "./Assets/img/logo/ciee_logo.jpg"
       }
     ],
     "acting": [
@@ -89,7 +99,7 @@
         "Director": "Dathaí Keane",
         "Company": "AMC+",
         "Location": "Dublin, Ireland",
-        "logo": "./Assets/img/amc.png",
+        "logo": "./Assets/img/logo/amc.png",
         "video": "./Assets/video/sanctuary2.mp4"
       },
       {
@@ -99,7 +109,7 @@
         "Director": "Tim Burton",
         "Company": "Netflix",
         "Location": "Dublin, Ireland",
-        "logo": "./Assets/img/netflix.png",
+        "logo": "./Assets/img/logo/netflix.png",
         "video": "./Assets/video/wednesday.mp4"
       },
       {
@@ -109,7 +119,7 @@
         "Director": "Edward Bazalgette",
         "Company": "BBC",
         "Location": "Dublin, Ireland",
-        "logo": "./Assets/img/bbc.png",
+        "logo": "./Assets/img/logo/bbc.png",
         "video": "./Assets/video/lynley.mp4"
       },
       {
@@ -119,7 +129,7 @@
         "Director": "Semih Bağcı",
         "Company": "NTC Media",
         "Location": "İzmir, Türkiye",
-        "logo": "./Assets/img/ntc.png"
+        "logo": "./Assets/img/logo/ntc.png"
       },
       {
         "name": "Cennetin Çocukları (Season 1)",
@@ -128,7 +138,7 @@
         "Director": "Soner Caner",
         "Company": "Motto Production",
         "Location": "Balıkesir, Türkiye",
-        "logo": "./Assets/img/motto.png"
+        "logo": "./Assets/img/logo/motto.png"
       },
       {
         "name": "Sibirya Tarım",
@@ -136,7 +146,7 @@
         "timeline": "Feb 2020",
         "Company": "Sibirya AS",
         "Location": "Novosibirsk, Russia",
-        "logo": "./Assets/img/sibirya.png",
+        "logo": "./Assets/img/logo/sibirya.png",
         "video": "./Assets/video/sibirya.mp4"
       },
       {

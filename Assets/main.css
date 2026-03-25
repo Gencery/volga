@@ -1,3 +1,8 @@
+:root {
+  --color-acting: #f00;
+  --color-sofware: #07f;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
@@ -305,11 +310,11 @@ body {
     }
 
     .red {
-      color: #f00;
+      color: var(--color-acting);
     }
 
     .blue {
-      color: #07f;
+      color: var(--color-sofware);
     }
   }
 
@@ -320,8 +325,25 @@ body:has(.acting) {
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #f00;
+    background: var(--color-acting);
     border-radius: 1vh;
+  }
+
+  .card {
+    box-shadow: 0 0px 5px 0px var(--color-acting);
+  }
+}
+
+body:has(.software) {
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-sofware);
+    border-radius: 1vh;
+  }
+
+  .card {
+    box-shadow: 0 0px 5px 0px var(--color-sofware);
   }
 }
 
@@ -347,17 +369,19 @@ body:has(.acting) {
 
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
 
       >.logo {
-        width: 30%;
+        min-width: 25%;
+        max-width: 25%;
         overflow: hidden;
         border-radius: 1vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
 
         >img {
-          object-fit: contain;
           width: 100%;
-
         }
       }
 
@@ -371,18 +395,6 @@ body:has(.acting) {
     }
   }
 
-}
-
-.acting {
-  .card {
-    box-shadow: 0 0px 5px 0px #f00;
-  }
-}
-
-.software {
-  .card {
-    box-shadow: 0 0px 5px 0px #55f;
-  }
 }
 
 .gallery {
