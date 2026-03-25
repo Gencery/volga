@@ -233,11 +233,12 @@ body {
       padding: 1vh 2vh;
       transition: box-shadow 250ms;
       margin: 1vh;
-      box-shadow: 0 0 5px -2px #ddd;
+      box-shadow: 0 5px 5px -5px #ddd;
+      border: 1px solid rgba(255, 255, 255, 15%);
     }
 
     >a:hover {
-      box-shadow: 0 2px 5px -4px #ddd;
+      box-shadow: 0 8px 5px -5px #ddd;
     }
   }
 }
@@ -422,56 +423,48 @@ body:has(.software) {
   }
 }
 
-.education,
-.gallery {
-  .card {
-    box-shadow: 0 0px 5px 0px #999;
-  }
-}
-
 .contact {
   height: 50vh;
+  position: relative;
 
   .imgContainer {
     overflow: hidden;
     height: 100%;
-    position: relative;
 
     img {
       object-fit: scale-down;
       max-width: 100%;
     }
-
-    .links {
-      color: #ddd;
-      position: absolute;
-      left: 0;
-      top: 60%;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      width: 100%;
-
-      .socLink {
-        width: 13vw;
-        border-radius: 2vh;
-        padding: 3px;
-        background-color: rgba(0, 0, 0, 55%);
-        margin: 0.5vh;
-        overflow: hidden;
-
-        img {
-          height: 100%;
-          object-fit: contain;
-          border-radius: inherit;
-        }
-      }
-
-      .socLink:hover {
-        transform: scale(1.1);
-      }
-    }
   }
 
+  .links {
+    color: #ddd;
+    position: absolute;
+    left: 0;
+    bottom: 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .socLink {
+      width: 3rem;
+      border-radius: 2vh;
+      padding: 3px;
+      background-color: rgba(0, 0, 0, 55%);
+      margin: 0.5vh;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        object-fit: contain;
+        border-radius: inherit;
+      }
+    }
+
+    .socLink:hover {
+      transform: scale(1.1);
+    }
+  }
 
 }
