@@ -117,7 +117,7 @@ function getPage(page) {
       
         <main class="home">
           <div class="imgContainer">
-            <img src=${images.luckyDuck.url} alt="">
+            <img src=${images.volga2.url} alt="">
           </div>
           <nav>
             <a href="./?page=experience">Experience</a>

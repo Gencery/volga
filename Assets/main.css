@@ -224,19 +224,20 @@ body {
 
     >a {
       text-decoration: none;
+      text-align: center;
       color: #fff;
       line-height: 7vh;
       font-size: 3vh;
-      background-color: rgba(0, 0, 0, 80%);
+      background-color: rgba(0, 0, 0, 90%);
       border-radius: 1vh;
       padding: 1vh 2vh;
       transition: box-shadow 250ms;
-      box-shadow: 0 0px 3px 0px #fff;
       margin: 1vh;
+      box-shadow: 0 0 5px -2px #ddd;
     }
 
     >a:hover {
-      box-shadow: 0 0 0px 0px #fff;
+      box-shadow: 0 2px 5px -4px #ddd;
     }
   }
 }
