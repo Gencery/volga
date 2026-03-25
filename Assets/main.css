@@ -371,23 +371,35 @@ body:has(.software) {
       justify-content: space-between;
       align-items: flex-start;
 
+      >* {
+        margin: 0.5vh;
+      }
+
       >div:first-of-type {
+        >p {
+          font-size: 0.875rem;
+        }
+
         >*:first-of-type {
           margin-top: 0%;
         }
       }
 
       >.logo {
-        min-width: 25%;
-        max-width: 25%;
+        --size: 12.5vh;
+        min-width: var(--size);
+        max-width: var(--size);
+        min-height: var(--size);
+        max-height: var(--size);
         overflow: hidden;
         border-radius: 1vh;
         overflow: hidden;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
 
         >img {
           width: 100%;
+          object-fit: contain;
         }
       }
 

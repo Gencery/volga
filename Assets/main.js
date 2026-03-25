@@ -146,6 +146,27 @@ function getPage(page) {
     </main>
     `
     },
+    education: {
+      content: /*html*/`
+        <main class="cardContainer acting">
+        ${data.education.reduce((acc, current) => acc + /*html*/`
+          <div class="card">
+            <div class="info">
+              <div>
+                <h4>${current.SchoolName || ""}</h4>
+                <p>${current.Degree || ""}</p>
+                <p>${current.StartEnd || ""}</p>
+              </div>
+              ${current.logo ? /*html*/`<div class="logo">
+                <img src=${current.logo} />
+              </div>` : ""}
+            </div>
+          </div>
+        `, "")
+        }
+      </main>
+      `
+    },
     acting: {
       content: /*html*/`
       <main class="cardContainer acting">
@@ -183,7 +204,6 @@ function getPage(page) {
       content: /*html*/`
       <main class="cardContainer gallery">
         <div class="card">
-          <h4>Showreel</h4>
           <video controls poster="./Assets/img/volga2.jpg">
             <source src="./Assets/video/showreel.mp4" type="video/mp4">
           </video>
