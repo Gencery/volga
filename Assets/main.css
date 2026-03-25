@@ -182,17 +182,17 @@ body {
 
 /*HOME PAGE*/
 .home {
+  position: relative;
+
   >* {
     margin: 0;
   }
 
-  position: relative;
 
   .imgContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    position: relative;
 
     >img {
       width: 100%;
@@ -201,39 +201,16 @@ body {
       object-fit: scale-down;
       margin: 0 auto;
     }
-
-    .pill {
-      position: absolute;
-      background: none;
-      bottom: 0%;
-      height: 50%;
-      font-size: 2vh;
-      font-weight: bold;
-      border: none;
-      opacity: 0;
-      cursor: pointer;
-    }
-
-    .pill-red {
-      left: 0%;
-      width: 50%;
-    }
-
-    .pill-blue {
-      right: 0%;
-      width: 50%;
-    }
   }
 
   nav {
     position: absolute;
-    top: 0vh;
+    bottom: 0vh;
     left: 1vh;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 100%;
+    flex-wrap: wrap;
     margin-top: 1vh;
+    border: 1px solid red;
 
     >a {
       text-decoration: none;
