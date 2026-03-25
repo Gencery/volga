@@ -347,6 +347,8 @@ body:has(.software) {
   }
 }
 
+
+
 .cardContainer {
   flex-grow: 1;
   color: white;
@@ -360,6 +362,7 @@ body:has(.software) {
     margin: 2vh 2vh 5vh 2vh;
     border-radius: 1vh;
     padding: 1vh;
+    background-color: #222;
 
     >* {
       margin: 0;
@@ -417,7 +420,9 @@ body:has(.software) {
 
 .gallery {
   .card {
-    box-shadow: 0 0px 5px 0px #0f0;
+    padding: 0%;
+    overflow: hidden;
+    display: flex;
 
     >h4 {
       margin: 1vh 0;
@@ -425,8 +430,15 @@ body:has(.software) {
 
     >img {
       width: 100%;
-      object-fit: contain;
+      object-fit: cover;
     }
+  }
+}
+
+.education,
+.gallery {
+  .card {
+    box-shadow: 0 0px 5px 0px #999;
   }
 }
 

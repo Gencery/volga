@@ -148,7 +148,7 @@ function getPage(page) {
     },
     education: {
       content: /*html*/`
-        <main class="cardContainer acting">
+        <main class="cardContainer education">
         ${data.education.reduce((acc, current) => acc + /*html*/`
           <div class="card">
             <div class="info">
