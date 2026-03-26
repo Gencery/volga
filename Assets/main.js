@@ -96,7 +96,7 @@ function getPage(page) {
   `
   let footer = () => /*html*/`
     <footer>
-      <a href="./" class="navHome">
+      <a href="./?page=home" class="navHome">
         <img src=${images.home.url} alt="">
       </a>
       <span class="copyright">© 2026 Volga Can Kaya. All rights reserved</span>
