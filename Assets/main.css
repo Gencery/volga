@@ -210,13 +210,8 @@ body {
     width: 100%;
     display: grid;
 
-    @media (max-width: 750px) {
-      grid-template-columns: 1fr 1fr;
-    }
+    grid-template-columns: 1fr 1fr;
 
-    @media (min-width: 750px) {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
 
     animation-name: slidein;
     animation: slidein 0.5s ease-out;
